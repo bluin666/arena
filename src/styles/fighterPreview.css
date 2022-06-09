@@ -1,0 +1,33 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+
+.fighter-preview___root img {
+  max-height: 350px;
+  min-height: 350px;
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+}
+
+.fighter-preview___right img {
+  transform: scaleX(-1);
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
+.fighter-stats {
+  margin: 0 auto;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  color: #dba866;
+  background-color: #683e07;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  border-radius: 15%;
+  /* white-space: pre-wrap; */
+}
